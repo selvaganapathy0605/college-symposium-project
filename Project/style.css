@@ -1,0 +1,568 @@
+* {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Bungee", sans-serif;
+    color: white;
+    background-color: #000;
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.63)),
+        url("./assets/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.points {
+    font-family: "Inter", sans-serif;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 3rem;
+    font-family: "Inter", sans-serif;
+}
+
+#navbar img {
+    width: 75px;
+    height: 75px;
+}
+
+.clg-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clg-details .clg-name {
+    text-decoration: solid #fff;
+    text-align: center;
+}
+
+.clg-details .instu-type {
+    color: rgb(193, 57, 57);
+    font-size: 14px;
+}
+
+#container {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 4rem;
+    font-family: "Poppins", sans-serif;
+}
+
+#inner-container {
+    padding: 0 1rem;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.present {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.7rem;
+    text-shadow: 0 0 10px #f72584d8;
+    color: rgb(225, 13, 13);
+}
+
+
+#explore-btn button {
+    padding: .5rem 2rem;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 3px solid rgb(255, 255, 255);
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.5;
+    transition: 0.2s ease-in-out;
+    font-weight: 600;
+    outline: none;
+}
+
+#explore-btn button:hover {
+    opacity: 1;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 10px rgb(255, 0, 43),
+        0 0 50px aqua;
+    border: 1.5px solid rgb(255, 0, 43);
+}
+
+.dept-name {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 0 0 10px #f72584d8;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 0 0 10px #f72584d8;
+}
+
+#dynamic-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 5rem;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+}
+
+#element {
+    text-shadow: 0 0 10px rgb(255, 0, 43),
+        0 0 50px aqua;
+
+    color: rgb(0, 221, 250);
+}
+
+.gudielines {
+    margin: .5rem 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 99%;
+}
+
+.guidelines-points {
+    padding: 1.5rem 0 2rem 5rem;
+    margin: 1rem 0 0 1rem;
+    font-size: 1.2rem;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    background-color: #54535390;
+}
+
+.guide-points li {
+    margin-bottom: 1rem;
+    padding-left: .5rem;
+    width: 100%;
+}
+
+.guide-points li::marker{
+    content: url('./assets/icon-list.svg');
+}
+
+.event-slider {
+    height: 80%;
+    padding: 1rem 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top:4rem ;
+}
+
+.event-img-container {
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+
+.head {
+    font-size: 4rem;
+    text-align: start;
+    width: fit-content;
+    text-shadow: 0px 0px 10px rgb(225, 12, 86),
+        0px 0px 15px rgb(51, 12, 225);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event-slider h2{
+    margin-left: 2rem;
+}
+
+.event-info {
+    height: 100%;
+    padding-top: 14rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 24px;
+}
+
+
+#paper-presentation {
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.5)),
+        url("./assets/scott-graham-5fNmWej4tAA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project-presentation {
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.5)),
+        url("./assets/headway-5QgIuuBxKwM-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#coding {
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.5)),
+        url("./assets/luca-bravo-XJXWbfSo2f0-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#quiz {
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.5)),
+        url("./assets/quiz-img.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#visual-vibzz {
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.5)),
+        url("./assets/jay-wennington-B0kNuKcK7q0-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#canva {
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.5)),
+        url("./assets/nejc-soklic-2jTu7H9l6JA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#connections {
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.5)),
+        url("./assets/aleksandr-popov-hTv8aaPziOQ-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#be-the-entrepreneur {
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.5)),
+        url("./assets/corporate-businessman-giving-presentation-large-audience.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#motion-capture {
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.5)),
+        url("./assets/sean-pierce-171wBL4YSIc-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#jam {
+    background-image: linear-gradient(rgba(11, 20, 35, 0.8),
+            rgba(11, 20, 35, 0.5)),
+        url("./assets/matthias-wagner-QrqeusbpFMM-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.event-name {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.event-obj {
+    width: 70%;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.register-btn {
+    outline: none;
+    padding: .5rem 2rem;
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 40px;
+    margin-top: 2rem;
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+}
+
+.register-btn:hover {
+    opacity: 1;
+    background-color: #fff;
+    color: #000;
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    gap: 1.5rem;
+    background: linear-gradient(90deg, #f7258490, #3d0471);
+    padding: 2rem 0 2rem 2rem;
+    border-top-right-radius: 250px;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-details {
+    display: flex;
+    gap: 2rem;
+    width: 98%;
+}
+
+.location-details {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    width: 40%;
+    gap: 1rem;
+}
+
+.location-details img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.social-link a {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-link img {
+    width: 50px;
+    height: 50px;
+    padding: .5rem;
+}
+
+@media(max-width:1025px){
+    .head{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:769px){
+    #container{
+        padding-top: 0;
+    }
+    .social-contact{
+        height: 150px;
+    }
+
+    .guidelines-points{
+        padding-left: 3rem;
+    }
+
+    .head{
+        font-size: 3rem;
+    }
+
+    #dynamic-text{
+        font-size: 3.3rem;
+    }
+
+    .dept-name{
+        font-size: 2.5rem;
+    }
+
+    .event-slider{
+        padding: 0;
+        margin-top: 10rem;
+    }
+
+    .event-info{
+        padding-top:10rem ;
+    }
+
+    .event-name{
+        font-size: 2.4rem;
+    }
+}
+
+@media(max-width:426px){
+
+    .head{
+        font-size: 2.5rem;
+        margin-left: 0;
+    }
+
+    #footer{
+        border-top-right-radius: 0;
+    }
+    
+    .footer-details{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .location-details{
+        width: 90%;
+    }
+    .social-contact{
+        display: block;
+        width: 50%;
+    }
+
+    #container{
+        gap: 2rem;
+        padding-top: 0;
+    }
+
+    #inner-container{
+        gap: 1rem;
+        justify-content: space-evenly;
+    }
+
+    .present{
+        font-size: 1.3rem;
+    }
+
+    .dept-name{
+        font-size: 1.5rem
+    }
+
+    .heading{
+        font-size: 1.7rem;
+    }
+
+    #dynamic-text{
+        font-size: 2.7rem;
+        margin: .5rem 0;
+    }
+
+    #explore-btn{
+        width: 90%;
+        text-align: center;
+    }
+
+    #explore-btn button{
+        width: 80%;
+        font-size: 22px;
+        padding: 1rem 0;
+        margin-top: 3rem;
+    }
+
+    .event-slider{
+        margin-top: 7rem;
+    }
+
+    .event-name{
+        font-size:2.3rem ;
+    }
+
+    .event-obj{
+        font-size: 18px;
+    }
+
+    .gudielines{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .guidelines-points{
+        width: 98%;
+        padding: 1.2rem 1rem 0 2.3rem;
+    }
+    
+    .event-slider{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-contact{
+        width: 90%;
+    }
+
+    .event-info{
+    padding-top: 7rem;
+    }
+
+} 
+
+
+@media(max-width:321px){
+
+    .head{
+        font-size: 2rem;
+    }
+
+    #dynamic-text{
+        font-size: 2.1rem;
+    }
+
+    #container{
+        padding-top: 0;
+    }
+
+    .event-slider{
+        margin-top: 8rem;
+        padding: 0;
+    }
+
+    .event-name{
+        font-size: 2rem ;
+    }
+}
